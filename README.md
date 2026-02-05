@@ -1,9 +1,14 @@
+
+                        
+                        
+                        
+                        
                         ┌──────────────────────────────┐
                         │          Docker Network      │
-                        │                              │
+                        │                              │ 
                         │  ┌──────────────┐            │
-User (Browser) ───────▶ │  │  Frontend    │            │
-localhost:3000          │  │  React App   │            │
+     User (Browser) ->  │  │  Frontend    │            │
+     localhost:3000     │  │  React App   │            │
                         │  │   :3000      │            │
                         │  └──────┬───────┘            │
                         │         │ REST API           │
